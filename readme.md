@@ -4,5 +4,5 @@ Bangla Font Specifier provides an option to choose from some popular Bangla font
 
 # Installation
 
-* [**Chrome Web Store**](https://chrome.google.com/webstore/detail/bangla-font-specifier/cdmlbdljbmkiebfhggnejlcdamjpmeop "Google Chrome") for Google Chrome / Chromium-based browsers
+* [**Chrome Web Store Link**](https://chrome.google.com/webstore/detail/bangla-font-specifier/cdmlbdljbmkiebfhggnejlcdamjpmeop "Google Chrome") for Google Chrome / Chromium-based browsers
 
