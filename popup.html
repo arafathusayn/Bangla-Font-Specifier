@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bangla Font Specifier</title>
+</head>
+<style>
+    button {
+        background-color: white;
+        color: black;
+        border: 2px solid #1BBC9B;
+        width: 99%;
+    }
+    button:hover {
+        background-color: #1BBC9B;
+        color: white;
+        font-weight: bold;
+        border: 2px solid #1BBC9B;
+    }
+    button:focus {
+        outline: 2px solid #1BBC9B;
+        border: 2px solid #1BBC9B;
+    }
+    div {
+        margin-top: 10px;
+    }
+    #selection {
+        border: 1px solid #1BBC9B;
+        color: black;
+        display: inline-block;
+        float: right;
+    }
+    #selection:focus {
+        border: 1px solid #1BBC9B;
+        outline: 2px solid #1BBC9B;
+    }
+    #selection > option {
+        color: black;
+    }
+    #saveButton {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #customSaveButton {
+        display: block;
+        margin-top: 5px;
+    }
+</style>
+<body>
+    <div>
+        Family:
+        <select id="selection">
+            <option value="Kalpurush">Kalpurush</option>
+            <option value="Siyam Rupali" selected>Siyam Rupali</option>
+            <option value="SolaimanLipi">Solaiman Lipi</option>
+        </select>
+    </div>
+
+    <button id="saveButton">Save</button>
+
+    <div id="customType">
+        <p id="customHint">Custom Font?</p>
+        <input type="text" id="customFont" value="" placeholder="Type your font name here">
+        <button id="customSaveButton">Save</button>
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>
